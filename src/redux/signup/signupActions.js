@@ -21,6 +21,7 @@ const requestSignUp = (data) => (dispatch) => {
     .post('https://the-gentleman-api.herokuapp.com/signup', data)
     .then((response) => {
       dispatch(signupSuccess(response.data));
+      window.location.href = '/success';
     })
     .catch((error) => dispatch(signupFailure(error)));
 };
