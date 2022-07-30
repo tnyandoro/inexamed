@@ -1,0 +1,16 @@
+{
+  "short_name": "Inex",
+  "name": "Inexamed",
+  "icons": [
+    {
+    },
+    {
+    },
+    {
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
