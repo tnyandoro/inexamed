@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import Authentication from './components/Authentication';
+import Authentication from './components/Login';
 
 function App() {
   return (
