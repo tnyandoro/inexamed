@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Authentication.module.scss';
 
-function Authentication() {
-  return (
-    <div className={`${styles.authWrapper}`}>Login Page</div>
-  );
-}
+const Authentication = () => (
+  <div className={`${styles.authWrapper}`}>
+    <h1>Login Page</h1>
+  </div>
+);
 
 export default Authentication;
