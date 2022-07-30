@@ -1,12 +1,10 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Authentication from './components/Authentication';
+import NavBar from './components/NavElements/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <Authentication />
-      <Button>Bootstrap Button</Button>
+      <NavBar />
     </div>
   );
 }
