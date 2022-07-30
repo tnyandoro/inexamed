@@ -1,21 +1,22 @@
 import React, { useRef } from 'react';
-// import { useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { Form } from 'react-bootstrap';
+import requestToLogin from '../../redux/login/loginActions';
 import styles from './Authentication.module.scss';
 
 const Authentication = () => {
   const email = useRef(null);
   const password = useRef(null);
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // const userCredentials = {
-    //   email: email.current.value,
-    //   password: password.current.value,
-    // };
-    // dispatch(requestToLogin(userCredentials));
+    const userCredentials = {
+      email: email.current.value,
+      password: password.current.value,
+    };
+    dispatch(requestToLogin(userCredentials));
   };
 
   return (
@@ -25,9 +26,6 @@ const Authentication = () => {
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control ref={email} type="email" placeholder="Enter email" />
-          <Form.Text className="text-muted">
-            We&apos;ll never share your email with anyone else.
-          </Form.Text>
         </Form.Group>
 
         <Form.Group controlId="formBasicPassword">
