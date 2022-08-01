@@ -19,10 +19,11 @@ function LandingFrameMessage() {
   };
   return (
     <div style={style}>
-      <div style={{ "font-size": "96px" }}>Hello World!!</div>
+      <div style={{ "font-size": "96px" }}>Drug Interaction checker!</div>
       <div style={{ "font-size": "36px" }}>
-        This is the landing page and here's some content. How much wood would a
-        woodchuck chuck if a woodchuck would chuck wood?
+        Analyze prescription and OTC drug interactions to determine which drug
+        combinations your patients should avoid. Pregnant patients are
+        especially important to consider.
       </div>{" "}
       <br /> <LandingPageButton />{" "}
     </div>
