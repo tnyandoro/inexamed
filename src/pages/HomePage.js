@@ -5,7 +5,7 @@ function LandingPageButton() {
   return (
     <Link to="/about" class="nav-link">
       <button class="btn btn-primary">
-        <span style={{ "font-size": "24px" }}>Click Me!</span>
+        <span style={{ "font-size": "24px" }}>SignUp!</span>
       </button>
     </Link>
   );
