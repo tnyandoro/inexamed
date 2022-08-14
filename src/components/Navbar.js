@@ -15,7 +15,10 @@ function Navbar() {
     } else {
       setButton(true);
     }
-  }
+  };
+
+  window.addEventListener('resize', showButton);
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
