@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
+import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [click, setClick] = useState(false);
+  const [buttonStyle, setButtonStyle] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
+  const showButton = (button) => {
+    if(window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  }
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -43,6 +53,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
       </div>
     </nav>
   );
