@@ -8,6 +8,7 @@
         "stylelint-csstree-validator"
     ],
     "rules": {
+        "react/prop-types": "off",
         "at-rule-no-unknown": [
             true,
             {
