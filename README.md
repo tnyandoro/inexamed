@@ -35,5 +35,32 @@ A Morden Browser
 - Type: npm run build
 - Run npm start
 
-T
+
+### Setup
+- To Test npm install jest and run npm test
+## Authors
+
+👤 **Tendai Nyandoro**
+
+- GitHub: [@Tendai Nyandoro](https://github.com/tnyandoro)
+- Twitter: [@tendainyandoro](https://twitter.com/tendainyandoro)
+- LinkedIn: [Tendai Nyandoro](https://www.linkedin.com/in/tendai-nyandoro/)
+
+👤 **Tafadzwa Chirume**
+
+- GitHub: [@Tafadzwa Chirume](https://github.com/)
+- Twitter: [@tafadzwa Chirume](https://twitter.com/)
+- LinkedIn: [Tafadzwa Chirume](https://www.linkedin.com/in/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/tnyandoro/restaurant-page-webpack/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
 
